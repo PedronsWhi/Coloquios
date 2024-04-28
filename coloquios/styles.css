@@ -1,0 +1,67 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(75.11deg, #CC6A51 -1.53%, #7F96BA 99.59%);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.078) !important; /* torna o menu semi-transparente */
+}
+
+.logo {
+    width: 52px;
+    height: auto;
+    margin-top: 2px; /* move a imagem 2 pixels para cima */
+}
+
+h1 {
+    color: white; /* Define a cor do título como branco */
+    margin-top: 0; /* remove o espaçamento superior padrão */
+}
+
+.navbar-nav {
+    margin: 0 auto; /* centraliza os links */
+    display: flex;
+    justify-content: center; /* alinha os links no centro */
+}
+
+.nav-item {
+    margin: 0 10px; /* adiciona espaçamento de 10px entre os links */
+}
+
+/* Footer */
+.footer {
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.078);
+    color: #fff;
+    text-align: left;
+}
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px; /* Adiciona espaçamento entre as imagens */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+    display: inline-block; /* Permite que o texto flua ao lado da imagem */
+}
+
+.footer-logo-cajui {
+    width: 100px;
+    height: auto;
+    display: inline-block; /* Exibe a imagem na mesma linha */
+    margin-top: 40px;
+}
+
+.footer p {
+    display: inline-block; /* Permite que o texto flua ao lado da imagem */
+    vertical-align: middle; /* Alinha verticalmente com a imagem */
+    margin-left: 85px; /* Adiciona espaçamento entre a logo e o texto */
+}
+.email{
+    margin-top: -80px;
+}
+.um-de-nos{
+    margin-left: 150px;
+    border-radius: 20px;
+    
+}
